@@ -1,0 +1,39 @@
+{
+    "name": "webaccess-strapi",
+    "version": "0.0.1",
+    "description": "WebAccess Strapi Plugin.",
+    "main": "index.js",
+    "dependencies": {
+        "http-errors": "2.0.0"
+    },
+    "engines": {
+        "node": ">=10.0.0",
+        "npm": ">=6.0.0"
+    },
+    "author": {
+        "name": "SorinGFS",
+        "url": "https://github.com/SorinGFS"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/SorinGFS/webaccess-strapi.git"
+    },
+    "bugs": {
+        "url": "git://github.com/SorinGFS/webaccess-strapi/issues"
+    },
+    "homepage": "https://github.com/SorinGFS/webaccess-strapi#readme",
+    "keywords": [
+        "strapi",
+        "access",
+        "auth",
+        "jwt",
+        "http",
+        "node",
+        "security",
+        "backend",
+        "open source",
+        "self hosted",
+        "javascript"
+    ]
+}
