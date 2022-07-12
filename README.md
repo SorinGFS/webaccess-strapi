@@ -8,7 +8,22 @@ Strapi does not offer access management nor does it have to offer because the ne
 
 ### Installation
 
-WebAccess Strapi is a plugin of the broader project [WebAccess](https://github.com/SorinGFS/webaccess). All the installation details can be found there.
+WebAccess Strapi is a plugin of the broader project [WebAccess](https://github.com/SorinGFS/webaccess). 
+
+```shell
+npm run action install webaccess-proxy -- -p strapi
+```
+
+**Note:** optionally an older version can be installed by adding parameter `-v 1.2.3`
+
+<details>
+<summary>Remove an installed plugin: <em>(Click to expand)</em></summary>
+
+```shell
+npm run action uninstall webaccess-proxy -- -p strapi
+```
+
+</details>
 
 ### How it works
 
