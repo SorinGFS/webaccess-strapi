@@ -4,11 +4,11 @@ Strapi access management based on JWT.
 
 ### Motivation
 
-Strapi does not offer access management nor does it have to offer because the needs can be very different from case to case. Moreover, we can have multiple Strapi applications installed which would mean that each application manages its access separately. That is why there was a need to be able to control access centrally.
+Strapi does not offer access management nor does it have to offer because the needs can be very different from case to case. Moreover, we can have multiple Strapi applications installed which would mean that each application manages its access separately. That is why there was a need to be able to control the access centrally.
 
 ### Installation
 
-WebAccess Strapi is a plugin of the broader project [WebAccess](https://github.com/SorinGFS/webaccess). 
+WebAccess Strapi is a plugin of the broader project [WebAccess](https://github.com/SorinGFS/webaccess). Install `webaccess` first, then inside of it install this plugin: 
 
 ```shell
 npm run action install webaccess-proxy -- -p strapi
