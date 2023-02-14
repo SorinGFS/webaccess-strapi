@@ -1,6 +1,6 @@
 {
     "name": "webaccess-strapi",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "WebAccess Strapi Plugin.",
     "main": "index.js",
     "engines": {
